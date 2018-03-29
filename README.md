@@ -3,18 +3,19 @@
 Used in a Raspberry Pi 3 v1.2
 
 # Docker
-'curl -sSL https://get.docker.com | sh'
-https://www.raspberrypi.org/blog/docker-comes-to-raspberry-pi/
+[Docker comes to Raspberry Pi](https://www.raspberrypi.org/blog/docker-comes-to-raspberry-pi/)
+```curl -sSL https://get.docker.com | sh```
 
-#### Adding Docker group
-sudo usermod -aG docker $USER
+##### Adding Docker group
+```sudo usermod -aG docker $USER```
 
-### Installing docker-compose
-sudo pip install docker-compose
+##### Installing docker-compose
+```sudo pip install docker-compose```
 
 # GPIO Library
 ## Pre-requisite
-Share the GPIO devices /dev/gpiomem
+Share the GPIO devices ```/dev/gpiomem```. 
+It is already done in the ```docker-compose.yml```.
 
 ## Library used
-https://github.com/WiringPi/WiringPi-Python
+[WiringPi - Python](https://github.com/WiringPi/WiringPi-Python)
