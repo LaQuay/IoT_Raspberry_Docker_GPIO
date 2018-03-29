@@ -1,0 +1,13 @@
+version: '2'
+
+services:
+  python:
+    container_name: iot_python
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./src:/code
+    devices:
+      - "/dev/gpiomem:/dev/gpiomem"
+    command: bash -c "python code/my_script.py"
