@@ -20,3 +20,8 @@ It is already done in the ```docker-compose.yml```.
 
 ## Library used
 [WiringPi - Python](https://github.com/WiringPi/WiringPi-Python)
+
+# Data exploitation
+All data that is readed from the GPIO ports is uploaded to an API REST.
+
+[IoT Simple API - Firebase](https://iot-simple-api.firebaseio.com/data.json)
