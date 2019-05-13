@@ -1,6 +1,6 @@
 # IoT_Raspberry_Docker_GPIO
 
-Used in a Raspberry Pi 3 v1.2. The main goal is to push data to the cloud from sensors connected to the Raspberry. And at the same time, the second goal is to have all the code inside a *Docker*.
+Used in a Raspberry Pi 3 v1.2. The main goal is to push data to the cloud from GPIO sensors connected to the Raspberry. And at the same time, the second goal is to have all the code running in microservices, Docker. Also using Google Firebase Realtime Database.
 
 # Schematic
 
